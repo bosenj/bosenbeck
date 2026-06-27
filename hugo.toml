@@ -1,4 +1,63 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
-theme = 'blog-awesome'
+baseURL = 'https://littlecoffe.net/'
+languageCode = 'en-us'
+title = "Little Coffee"
+theme = "blog-awesome"
+
+enableEmoji = true
+ignoreErrors = ["additional-script-loading-error"]
+
+[services]
+  [services.googleAnalytics]
+    id = ''
+  [services.disqus]
+    shortname = ''
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+[menu]
+  [[menu.main]]
+    pageRef = "/"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    pageRef = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
+    pageRef = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
+
+[params]
+  sitename = "Little Coffee"
+  defaultColor = "dark"
+  description = "My practice site"
+  mainSections = ['posts']
+  toc = true
+  tocOpen = false
+  goToTop = true
+  rssFeedDescription = "summary"
+
+[params.author]
+  name = "Your Name"
+  intro = "Little Coffee"
+  description = "A short line about me."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/yourusername"
+
+[[params.socialIcons]]
+  name = "Rss"
+  url = "/index.xml"
