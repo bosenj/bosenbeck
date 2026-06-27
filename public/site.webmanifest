@@ -1,7 +1,7 @@
 {
     "name": "Little Coffee",
     "short_name": "Little Coffee",
-    "start_url": "https://littlecoffe.net/",
+    "start_url": "https://littlecoffee.net/",
     "theme_color": "#434648",
     "background_color": "#131418",
     "display": "standalone",

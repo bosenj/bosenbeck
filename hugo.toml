@@ -1,4 +1,4 @@
-baseURL = 'https://littlecoffe.net/'
+baseURL = 'https://littlecoffee.net/'
 languageCode = 'en-us'
 title = "Little Coffee"
 theme = "blog-awesome"
@@ -42,7 +42,7 @@ ignoreErrors = ["additional-script-loading-error"]
 [params]
   sitename = "Little Coffee"
   defaultColor = "dark"
-  description = "My practice site"
+  description = "Markets, trading, and a little coffee."
   mainSections = ['posts']
   toc = true
   tocOpen = false
@@ -50,13 +50,12 @@ ignoreErrors = ["additional-script-loading-error"]
   rssFeedDescription = "summary"
 
 [params.author]
-  name = "Your Name"
+  name = "Little Coffee"
   intro = "Little Coffee"
-  description = "A short line about me."
+  description = "Take a sip."
 
 [[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/yourusername"
+
 
 [[params.socialIcons]]
   name = "Rss"
